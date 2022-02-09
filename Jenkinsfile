@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Stage 1') {
       steps {
-        sh '''#!/usr/bin/bash
+        sh '''#!/bin/bash
 echo "Done"
 '''
       }
